@@ -1,0 +1,10 @@
+     <div class="row mr-auto">
+						<a href="{{route('edit_blog_path', ['blog' => $blog->id])}}" class="btn btn-success">Edit</a>
+       					<a href="{{route('blogs_path')}}" class="btn  btn-dark">Back</a>
+					<form action="{{route('delete_blog_path', ['blog' => $blog->id])}}" method="POST">
+						@csrf
+						@method('DELETE')
+						<button type="submit" class="btn btn-danger">delete</button>
+					</form>
+			</div>
+			

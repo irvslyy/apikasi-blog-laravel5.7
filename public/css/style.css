@@ -1,0 +1,214 @@
+body,html{
+	background-color: #fff;
+	height: 100%;
+}
+.navbar-expand-lg{
+	border-bottom: 1px solid #eaeaea;
+	padding: 20px;
+}
+.navbar-brand{
+	font-family: Montserrat:700;
+}
+.textone{
+	font-size: 12px;
+}
+.button1{
+	width: 125px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px #A8A8A8;
+}
+.button1:hover{
+	box-shadow: 0px 0px 30px #A8A8A8;
+}
+
+.card{
+	box-shadow: 0px 0px 2px #A8A8A8;
+	transition: .7s;
+}
+.cards-two{
+	box-shadow: 0px 0px 2px #A8A8A8;
+	transition: .7s;
+}
+.cards:hover{
+	transform: translateY(-10px);
+}
+.card:hover{
+	box-shadow: 0px 0px 8px #A8A8A8;
+	transition: .7s;
+}
+.colors{
+	background: linear-gradient(to left, #1952BB,#450B6F );
+}
+.colors-btn{
+	background: linear-gradient(to left, #1952BB,#450B6F );
+
+}
+.colors-btn:hover{
+	background: linear-gradient(to left,#450B6F, #1952BB );
+	transition: 1s;
+}
+.sec-head{
+	padding: 18px;
+	height: 100%;
+}
+.sec-heads{
+	padding: 150px;
+	/*border-bottom-right-radius: 200px;
+	animation-name: bords;
+	animation-duration: 1s;*/
+}
+/*.sec-heads:hover{
+	border-bottom-left-radius: 200px;
+	transition: 1s;
+}*/
+.sec-two{
+	background-color:#F9F9F9;
+	padding: 120px;
+}
+.sec-three{
+	padding: 60px;
+	background: linear-gradient(#6743F7,#3300FF, 0.5);
+}
+.txt{
+	color: #fff;
+}
+.txt-one{
+	font-family: Montserrat;
+}
+.dev-text{
+	font-family: Montserrat;
+}
+.navbar-brand{
+	font-family: Montserrat;
+}
+.images{
+	animation-name: oke;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: inherit;
+	overflow-x: hidden;
+}
+.texttwo{
+	font-size: 25px;
+}
+.textthree{
+	font-size: 15px;
+}
+@-webkit-keyframes oke {
+	0%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(15px);
+	
+	}
+}
+.foot{
+	border-top: 1px solid #eaeaea;
+}
+.se{
+	border-top: 1px solid #eaeaea;
+	padding: 0px;
+}
+.users{
+	font-size: 180px;
+}
+.fa-trophy{
+	font-size: 180px;
+}
+.fa-heart{
+	color: red;
+}
+.falt{
+	font-size: 100px;
+}
+.fasv{
+	font-size: 100px;
+	color: linear-gradient(#6743F7,#3300FF);
+}
+
+
+.form-login{
+	margin-top: 150px;
+}
+.form-register{
+	margin-top: 130px;
+}
+.btn-write{
+	width: 300px;
+}
+.rounds{
+	border-radius: 20px;
+}
+
+.fonts-head-post{
+	font-weight: bold;
+	color: #6743F7;
+}
+.bords-next{
+	border-radius: 20px;
+}
+.shadow-posted{
+	box-shadow: 0px 0px 0px #eaeaea;
+}
+.margin-create{
+	margin-top: 80px;
+}
+.admins{
+	margin-top: 100px;
+}
+.card-text{
+	color: #eaeaea;
+}
+.leads{
+	font-size: 12px;
+	opacity: .5;
+}
+.card-footer{
+	line-height: 0px;
+}
+.bold{
+	font-weight: bold;
+}
+.images-crud{
+	width: 200px;
+	height: 100px;
+}
+.backs{
+	background-color: #4F24FA;
+}
+.backgroundfoot{
+	background-color: #eaeaea;
+}
+.footer{
+	background-color: #fff;
+}
+.footer-big{
+	border-top: 1px solid #eaeaea;
+	padding: 30px;
+}
+.bg-darken{
+	background: linear-gradient(to left, #1952BB,#450B6F ) ;
+}
+.fa-user-circle{
+	color: blue;
+}
+.off-shadowr{
+	box-shadow: inset 60px 60px 8px white;
+}
+.btn-writes{
+	width: 180px;
+}
+.text-foot{
+	color: black;
+}
+.sticky-footer mt-5 off-shadow{
+	color: black;
+}
+.clickable{
+	cursor: pointer;
+}
+.drop-left{
+	margin-right: 88px;
+}
